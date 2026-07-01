@@ -14,7 +14,7 @@
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
 <!-- D3.js -->
 <script src="https://d3js.org/d3.v7.min.js"></script>
-<!-- Datos generados por analisis.py -->
+<!-- Datos procesados por analisis.py -->
 <script src="data.js"></script>
 
 <style>
@@ -704,7 +704,7 @@ th.sort-desc::after { content: " ↓"; }
     </div>
     <svg id="treemap-svg" style="width:100%;display:block;border-radius:4px"></svg>
     <div style="font-size:11px;color:rgba(250,249,247,.3);margin-top:14px;border-top:1px solid rgba(255,255,255,.08);padding-top:12px">
-      Análisis generado con Python / pandas · Visualización: D3.js
+      Análisis con Python / pandas · Visualización: D3.js
     </div>
   </div>
 </div>
@@ -773,7 +773,8 @@ th.sort-desc::after { content: " ↓"; }
       <div class="footer-brand">Startup Intelligence Report</div>
       <div class="footer-meta">
         Fondo de Inversión &middot; Análisis de 1,000 startups<br>
-        Análisis: Python + pandas &middot; Visualizaciones: Chart.js + D3.js
+        Análisis: Python + pandas &middot; Visualizaciones: Chart.js + D3.js<br>
+        Diseñado y desarrollado por <strong>Axel Meyrek</strong>
       </div>
     </div>
     <div style="text-align:right">
@@ -818,7 +819,7 @@ th.sort-desc::after { content: " ↓"; }
   const now = new Date();
   const fmtDate = now.toLocaleDateString("es-MX", { year:"numeric", month:"long", day:"numeric" });
   document.getElementById("topbar-date").textContent = fmtDate;
-  document.getElementById("footer-date-full").textContent = "Generado el " + fmtDate;
+  document.getElementById("footer-date-full").textContent = fmtDate;
 
   /* ─── Nav activo por scroll ─── */
   const sections = document.querySelectorAll("section[id]");
