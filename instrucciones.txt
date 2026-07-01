@@ -1,0 +1,32 @@
+Objetivo
+
+Analizar una base de datos de 1,000 startups para ayudar a un fondo de inversión a decidir en cuál invertir. La decisión debe considerar:
+
+Mayor beneficio.
+Menores gastos.
+Mayor crecimiento.
+Actividades principales
+Crear grupos
+Agrupar categorías o elementos para simplificar el análisis.
+Puedes hacerlo manualmente seleccionando los elementos que deseas reunir en una sola categoría.
+Crear conjuntos
+Conjuntos estáticos: seleccionas manualmente los elementos que pertenecen al conjunto.
+Conjuntos dinámicos: los elementos se agregan automáticamente cuando cumplen una condición, por ejemplo, el Top 10 de empresas por crecimiento o las empresas con ingresos superiores a un valor determinado.
+Realizar visualizaciones
+Crear un gráfico por categorías y número de empleados.
+Crear una tabla con las empresas y su porcentaje de crecimiento.
+Crear un mapa de árbol para mostrar las empresas con mayor crecimiento.
+Crear un gráfico de dispersión para analizar la relación entre ingresos y gastos.
+Combinar conjuntos
+Crear un conjunto con empresas de altos ingresos.
+Crear otro con empresas de bajos gastos.
+Combinar ambos conjuntos para identificar las empresas que cumplen las dos condiciones, siendo las mejores candidatas para inversión.
+Resultado esperado
+
+Al finalizar deberás ser capaz de identificar, mediante grupos, conjuntos y diferentes visualizaciones, qué startups tienen el mayor potencial de inversión, considerando simultáneamente:
+
+Altos ingresos.
+Bajos gastos.
+Alto crecimiento.
+
+El objetivo es aprender a utilizar grupos y conjuntos para organizar, filtrar y comparar datos hasta encontrar las empresas con mejores indicadores.
